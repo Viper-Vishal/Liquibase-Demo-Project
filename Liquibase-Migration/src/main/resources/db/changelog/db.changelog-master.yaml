@@ -1,0 +1,9 @@
+#databaseChangeLog:
+#  - include[1]:
+#    file: classpath:db/changelog/v1-schema.sql
+
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/v1-schema.sql
+  - include:
+        file: classpath:db/changelog/firstchange.sql
